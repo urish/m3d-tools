@@ -35,16 +35,13 @@ Example:
 ## Running the PrintGCode utility
 
 The PrintGCode utility takes two parameters: The name of the USB serial port that the printer is connected to (e.g. COM15), and the name of the 
-processed GCode file to print. The printer must be in Firmware mode, as the program does not handle the Bootloader mode right now.
+processed GCode file to print. The printer must be in Firmware mode, as the program currently does not handle the Boot-loader mode.
 
 Example:
 
 `PrintGCode.exe COM15 output.gcode`
 
-Important notes:
-
-* The program does not turn the heather / fan / motors off after printing. You will have to do this manually to make sure your printer does not get damaged.
-* The current printing method is not optimal, it feeds the commands to the printer much slower than the M3D Spooler, and this is likely to cause prints to fail.
+Note: if you stop the process while printing, you will have to manually turn off the heater, fan and motors.
 
 ## Contributions:
 
