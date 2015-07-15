@@ -70,10 +70,10 @@ namespace Processor
             printerDetails.BACKLASH_X = backlashX;
             printerDetails.BACKLASH_Y = backlashY;
             printerDetails.ENTIRE_Z_HEIGHT_OFFSET = badOffset;
-            printerDetails.CORNER_HEIGHT_BACK_RIGHT_OFFSET = 0;
-            printerDetails.CORNER_HEIGHT_BACK_LEFT_OFFSET = 0;
-            printerDetails.CORNER_HEIGHT_FRONT_LEFT_OFFSET = 0;
-            printerDetails.CORNER_HEIGHT_FRONT_RIGHT_OFFSET = 0;
+            printerDetails.CORNER_HEIGHT_BACK_RIGHT_OFFSET = badOffsetBackRight;
+            printerDetails.CORNER_HEIGHT_BACK_LEFT_OFFSET = badOffsetBackLeft;
+            printerDetails.CORNER_HEIGHT_FRONT_LEFT_OFFSET = badOffsetFrontLeft;
+            printerDetails.CORNER_HEIGHT_FRONT_RIGHT_OFFSET = badOffsetFrontRight;
             return printerDetails;
         }
 
