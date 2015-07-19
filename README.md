@@ -16,7 +16,7 @@ Important: These tools are not officially supported! Use at your own risk!
 
 ## Installation
 
-You need to install the official M3D software first. The supported version is `2015-07-01-V1.3.4.5`. After installing the software, copy the following files into the `Dist` folder:
+You need to install the official M3D software first. The supported version is `2015-07-15-V1.3.5.0`. After installing the software, copy the following files into the `Dist` folder:
 
 * Micro3DSpooler.exe
 * Micro3DSpooling.dll
