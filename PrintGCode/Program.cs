@@ -16,6 +16,11 @@ namespace PrintGCode
         {
             Console.WriteLine("Spooler message: {0}", message);
         }
+
+        public bool BroadcastMessage (string message, bool connected_clients_only) {
+            BroadcastMessage(message);
+            return true;
+        }
     }
 
     class MainClass
